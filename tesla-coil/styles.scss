@@ -1,0 +1,62 @@
+
+$wall: #222;
+
+body{
+  background: $wall;
+}
+
+*{
+  color: #ccc
+  }
+
+h2{
+    background:white;
+    display: inline;
+    color: #333;
+    padding:5px;
+
+  }
+
+canvas{
+  background:#333;
+}
+
+img{
+  top:-118px;
+  left: -140px;
+  position: absolute;
+}
+
+#pictureCrop{
+  float: left;
+  border: 4px solid white;
+  overflow:hidden;
+  height: 30px;
+  width: 115px;
+  position: relative;
+}
+
+
+/*
+@mixin()
+@include(x, y, z);
+
+@for $i: 1 from 1 through 10 {
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
