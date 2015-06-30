@@ -8,15 +8,19 @@ function Coils(width, height){
   this.height = height;
   var that = this;
   this.q1 = function(){
+    // a quarter
     return this.width / 4 ;
   };
   this.q2 = function(){
+    // a half
     return this.width / 2 ;
   };
   this.q3 = function(){
+    // three quaters
     return this.width / 4 * 3 ;
   };
   this.q4 = function(){
+    // whole width
     return this.width ;
   };
 
